@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001648AB2C6CBD9700F855E8 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001648AA2C6CBD9700F855E8 /* GraphView.swift */; };
+		0039FCF12C6BCB34002836A0 /* TestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039FCF02C6BCB34002836A0 /* TestType.swift */; };
+		0039FCF32C6BD5A9002836A0 /* ResultInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */; };
+		006E6B632C6C951900A169B7 /* ResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E6B622C6C951900A169B7 /* ResultListView.swift */; };
+		006E6B662C6C98CC00A169B7 /* ResultInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */; };
+		0071DABE2C6F225C00CF7683 /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0071DABD2C6F225C00CF7683 /* Swift.gitignore */; };
+		007D51302C6BAFF8006B956B /* medat_statsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D512F2C6BAFF8006B956B /* medat_statsApp.swift */; };
+		007D51322C6BAFF8006B956B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D51312C6BAFF8006B956B /* ContentView.swift */; };
+		007D51342C6BAFF8006B956B /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D51332C6BAFF8006B956B /* TestResult.swift */; };
+		007D51362C6BAFF9006B956B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D51352C6BAFF9006B956B /* Assets.xcassets */; };
+		007D513A2C6BAFF9006B956B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D51392C6BAFF9006B956B /* Preview Assets.xcassets */; };
+		007D51442C6BAFF9006B956B /* medat_statsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D51432C6BAFF9006B956B /* medat_statsTests.swift */; };
+		007D514E2C6BAFF9006B956B /* medat_statsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D514D2C6BAFF9006B956B /* medat_statsUITests.swift */; };
+		007D51502C6BAFF9006B956B /* medat_statsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D514F2C6BAFF9006B956B /* medat_statsUITestsLaunchTests.swift */; };
+		007D515E2C6BB080006B956B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D515D2C6BB080006B956B /* HomeView.swift */; };
+		007D51612C6BB4CF006B956B /* SubjectProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D51602C6BB4CF006B956B /* SubjectProgressView.swift */; };
+		00AB43062C6F278400B3B173 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB43052C6F278400B3B173 /* BlogView.swift */; };
+		00AB43082C6F2D0D00B3B173 /* BlogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB43072C6F2D0D00B3B173 /* BlogEntry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007D51402C6BAFF9006B956B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007D51242C6BAFF7006B956B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007D512B2C6BAFF8006B956B;
+			remoteInfo = "medat-stats";
+		};
+		007D514A2C6BAFF9006B956B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007D51242C6BAFF7006B956B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007D512B2C6BAFF8006B956B;
+			remoteInfo = "medat-stats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001648AA2C6CBD9700F855E8 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		0039FCF02C6BCB34002836A0 /* TestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestType.swift; sourceTree = "<group>"; };
+		0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInputView.swift; sourceTree = "<group>"; };
+		006E6B622C6C951900A169B7 /* ResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListView.swift; sourceTree = "<group>"; };
+		006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInputViewModel.swift; sourceTree = "<group>"; };
+		0071DABD2C6F225C00CF7683 /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
+		007D512C2C6BAFF8006B956B /* medat-stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "medat-stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		007D512F2C6BAFF8006B956B /* medat_statsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medat_statsApp.swift; sourceTree = "<group>"; };
+		007D51312C6BAFF8006B956B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		007D51332C6BAFF8006B956B /* TestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
+		007D51352C6BAFF9006B956B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		007D51372C6BAFF9006B956B /* medat_stats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = medat_stats.entitlements; sourceTree = "<group>"; };
+		007D51392C6BAFF9006B956B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		007D513F2C6BAFF9006B956B /* medat-statsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "medat-statsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		007D51432C6BAFF9006B956B /* medat_statsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medat_statsTests.swift; sourceTree = "<group>"; };
+		007D51492C6BAFF9006B956B /* medat-statsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "medat-statsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		007D514D2C6BAFF9006B956B /* medat_statsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medat_statsUITests.swift; sourceTree = "<group>"; };
+		007D514F2C6BAFF9006B956B /* medat_statsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medat_statsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		007D515D2C6BB080006B956B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		007D51602C6BB4CF006B956B /* SubjectProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectProgressView.swift; sourceTree = "<group>"; };
+		00AB43052C6F278400B3B173 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		00AB43072C6F2D0D00B3B173 /* BlogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogEntry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007D51292C6BAFF8006B956B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007D513C2C6BAFF9006B956B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007D51462C6BAFF9006B956B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006E6B642C6C98B100A169B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		007D51232C6BAFF7006B956B = {
+			isa = PBXGroup;
+			children = (
+				0071DABD2C6F225C00CF7683 /* Swift.gitignore */,
+				007D512E2C6BAFF8006B956B /* medat-stats */,
+				007D51422C6BAFF9006B956B /* medat-statsTests */,
+				007D514C2C6BAFF9006B956B /* medat-statsUITests */,
+				007D512D2C6BAFF8006B956B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		007D512D2C6BAFF8006B956B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007D512C2C6BAFF8006B956B /* medat-stats.app */,
+				007D513F2C6BAFF9006B956B /* medat-statsTests.xctest */,
+				007D51492C6BAFF9006B956B /* medat-statsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007D512E2C6BAFF8006B956B /* medat-stats */ = {
+			isa = PBXGroup;
+			children = (
+				006E6B642C6C98B100A169B7 /* ViewModel */,
+				007D51642C6BC555006B956B /* Model */,
+				007D515C2C6BB00F006B956B /* Views */,
+				007D512F2C6BAFF8006B956B /* medat_statsApp.swift */,
+				007D51312C6BAFF8006B956B /* ContentView.swift */,
+				007D51352C6BAFF9006B956B /* Assets.xcassets */,
+				007D51372C6BAFF9006B956B /* medat_stats.entitlements */,
+				007D51382C6BAFF9006B956B /* Preview Content */,
+			);
+			path = "medat-stats";
+			sourceTree = "<group>";
+		};
+		007D51382C6BAFF9006B956B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				007D51392C6BAFF9006B956B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		007D51422C6BAFF9006B956B /* medat-statsTests */ = {
+			isa = PBXGroup;
+			children = (
+				007D51432C6BAFF9006B956B /* medat_statsTests.swift */,
+			);
+			path = "medat-statsTests";
+			sourceTree = "<group>";
+		};
+		007D514C2C6BAFF9006B956B /* medat-statsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				007D514D2C6BAFF9006B956B /* medat_statsUITests.swift */,
+				007D514F2C6BAFF9006B956B /* medat_statsUITestsLaunchTests.swift */,
+			);
+			path = "medat-statsUITests";
+			sourceTree = "<group>";
+		};
+		007D515C2C6BB00F006B956B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				007D515F2C6BB4BC006B956B /* Components */,
+				007D515D2C6BB080006B956B /* HomeView.swift */,
+				0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */,
+				006E6B622C6C951900A169B7 /* ResultListView.swift */,
+				001648AA2C6CBD9700F855E8 /* GraphView.swift */,
+				00AB43052C6F278400B3B173 /* BlogView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		007D515F2C6BB4BC006B956B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				007D51602C6BB4CF006B956B /* SubjectProgressView.swift */,
+				00AB43072C6F2D0D00B3B173 /* BlogEntry.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		007D51642C6BC555006B956B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				007D51332C6BAFF8006B956B /* TestResult.swift */,
+				0039FCF02C6BCB34002836A0 /* TestType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007D512B2C6BAFF8006B956B /* medat-stats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007D51532C6BAFF9006B956B /* Build configuration list for PBXNativeTarget "medat-stats" */;
+			buildPhases = (
+				007D51282C6BAFF8006B956B /* Sources */,
+				007D51292C6BAFF8006B956B /* Frameworks */,
+				007D512A2C6BAFF8006B956B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "medat-stats";
+			productName = "medat-stats";
+			productReference = 007D512C2C6BAFF8006B956B /* medat-stats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		007D513E2C6BAFF9006B956B /* medat-statsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007D51562C6BAFF9006B956B /* Build configuration list for PBXNativeTarget "medat-statsTests" */;
+			buildPhases = (
+				007D513B2C6BAFF9006B956B /* Sources */,
+				007D513C2C6BAFF9006B956B /* Frameworks */,
+				007D513D2C6BAFF9006B956B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007D51412C6BAFF9006B956B /* PBXTargetDependency */,
+			);
+			name = "medat-statsTests";
+			productName = "medat-statsTests";
+			productReference = 007D513F2C6BAFF9006B956B /* medat-statsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		007D51482C6BAFF9006B956B /* medat-statsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007D51592C6BAFF9006B956B /* Build configuration list for PBXNativeTarget "medat-statsUITests" */;
+			buildPhases = (
+				007D51452C6BAFF9006B956B /* Sources */,
+				007D51462C6BAFF9006B956B /* Frameworks */,
+				007D51472C6BAFF9006B956B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007D514B2C6BAFF9006B956B /* PBXTargetDependency */,
+			);
+			name = "medat-statsUITests";
+			productName = "medat-statsUITests";
+			productReference = 007D51492C6BAFF9006B956B /* medat-statsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007D51242C6BAFF7006B956B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					007D512B2C6BAFF8006B956B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					007D513E2C6BAFF9006B956B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 007D512B2C6BAFF8006B956B;
+					};
+					007D51482C6BAFF9006B956B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 007D512B2C6BAFF8006B956B;
+					};
+				};
+			};
+			buildConfigurationList = 007D51272C6BAFF7006B956B /* Build configuration list for PBXProject "medat-stats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 007D51232C6BAFF7006B956B;
+			productRefGroup = 007D512D2C6BAFF8006B956B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007D512B2C6BAFF8006B956B /* medat-stats */,
+				007D513E2C6BAFF9006B956B /* medat-statsTests */,
+				007D51482C6BAFF9006B956B /* medat-statsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007D512A2C6BAFF8006B956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007D513A2C6BAFF9006B956B /* Preview Assets.xcassets in Resources */,
+				007D51362C6BAFF9006B956B /* Assets.xcassets in Resources */,
+				0071DABE2C6F225C00CF7683 /* Swift.gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007D513D2C6BAFF9006B956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007D51472C6BAFF9006B956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007D51282C6BAFF8006B956B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AB43082C6F2D0D00B3B173 /* BlogEntry.swift in Sources */,
+				007D51322C6BAFF8006B956B /* ContentView.swift in Sources */,
+				006E6B632C6C951900A169B7 /* ResultListView.swift in Sources */,
+				006E6B662C6C98CC00A169B7 /* ResultInputViewModel.swift in Sources */,
+				00AB43062C6F278400B3B173 /* BlogView.swift in Sources */,
+				007D515E2C6BB080006B956B /* HomeView.swift in Sources */,
+				007D51342C6BAFF8006B956B /* TestResult.swift in Sources */,
+				001648AB2C6CBD9700F855E8 /* GraphView.swift in Sources */,
+				0039FCF32C6BD5A9002836A0 /* ResultInputView.swift in Sources */,
+				007D51612C6BB4CF006B956B /* SubjectProgressView.swift in Sources */,
+				0039FCF12C6BCB34002836A0 /* TestType.swift in Sources */,
+				007D51302C6BAFF8006B956B /* medat_statsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007D513B2C6BAFF9006B956B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007D51442C6BAFF9006B956B /* medat_statsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007D51452C6BAFF9006B956B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007D51502C6BAFF9006B956B /* medat_statsUITestsLaunchTests.swift in Sources */,
+				007D514E2C6BAFF9006B956B /* medat_statsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007D51412C6BAFF9006B956B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007D512B2C6BAFF8006B956B /* medat-stats */;
+			targetProxy = 007D51402C6BAFF9006B956B /* PBXContainerItemProxy */;
+		};
+		007D514B2C6BAFF9006B956B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007D512B2C6BAFF8006B956B /* medat-stats */;
+			targetProxy = 007D514A2C6BAFF9006B956B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007D51512C6BAFF9006B956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		007D51522C6BAFF9006B956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		007D51542C6BAFF9006B956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "medat-stats/medat_stats.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"medat-stats/Preview Content\"";
+				DEVELOPMENT_TEAM = 8HM9T9GDLD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "becker.medat-stats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		007D51552C6BAFF9006B956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "medat-stats/medat_stats.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"medat-stats/Preview Content\"";
+				DEVELOPMENT_TEAM = 8HM9T9GDLD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "becker.medat-stats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		007D51572C6BAFF9006B956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HM9T9GDLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "becker.medat-statsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medat-stats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/medat-stats";
+			};
+			name = Debug;
+		};
+		007D51582C6BAFF9006B956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HM9T9GDLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "becker.medat-statsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medat-stats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/medat-stats";
+			};
+			name = Release;
+		};
+		007D515A2C6BAFF9006B956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HM9T9GDLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "becker.medat-statsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "medat-stats";
+			};
+			name = Debug;
+		};
+		007D515B2C6BAFF9006B956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HM9T9GDLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "becker.medat-statsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "medat-stats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007D51272C6BAFF7006B956B /* Build configuration list for PBXProject "medat-stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D51512C6BAFF9006B956B /* Debug */,
+				007D51522C6BAFF9006B956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007D51532C6BAFF9006B956B /* Build configuration list for PBXNativeTarget "medat-stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D51542C6BAFF9006B956B /* Debug */,
+				007D51552C6BAFF9006B956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007D51562C6BAFF9006B956B /* Build configuration list for PBXNativeTarget "medat-statsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D51572C6BAFF9006B956B /* Debug */,
+				007D51582C6BAFF9006B956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007D51592C6BAFF9006B956B /* Build configuration list for PBXNativeTarget "medat-statsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D515A2C6BAFF9006B956B /* Debug */,
+				007D515B2C6BAFF9006B956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007D51242C6BAFF7006B956B /* Project object */;
+}
