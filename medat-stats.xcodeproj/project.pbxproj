@@ -12,7 +12,6 @@
 		0039FCF32C6BD5A9002836A0 /* ResultInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */; };
 		006E6B632C6C951900A169B7 /* ResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E6B622C6C951900A169B7 /* ResultListView.swift */; };
 		006E6B662C6C98CC00A169B7 /* ResultInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */; };
-		0071DABE2C6F225C00CF7683 /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0071DABD2C6F225C00CF7683 /* Swift.gitignore */; };
 		007D51302C6BAFF8006B956B /* medat_statsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D512F2C6BAFF8006B956B /* medat_statsApp.swift */; };
 		007D51322C6BAFF8006B956B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D51312C6BAFF8006B956B /* ContentView.swift */; };
 		007D51342C6BAFF8006B956B /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D51332C6BAFF8006B956B /* TestResult.swift */; };
@@ -50,7 +49,6 @@
 		0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInputView.swift; sourceTree = "<group>"; };
 		006E6B622C6C951900A169B7 /* ResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListView.swift; sourceTree = "<group>"; };
 		006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInputViewModel.swift; sourceTree = "<group>"; };
-		0071DABD2C6F225C00CF7683 /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
 		007D512C2C6BAFF8006B956B /* medat-stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "medat-stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		007D512F2C6BAFF8006B956B /* medat_statsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medat_statsApp.swift; sourceTree = "<group>"; };
 		007D51312C6BAFF8006B956B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		007D51232C6BAFF7006B956B = {
 			isa = PBXGroup;
 			children = (
-				0071DABD2C6F225C00CF7683 /* Swift.gitignore */,
 				007D512E2C6BAFF8006B956B /* medat-stats */,
 				007D51422C6BAFF9006B956B /* medat-statsTests */,
 				007D514C2C6BAFF9006B956B /* medat-statsUITests */,
@@ -300,7 +297,6 @@
 			files = (
 				007D513A2C6BAFF9006B956B /* Preview Assets.xcassets in Resources */,
 				007D51362C6BAFF9006B956B /* Assets.xcassets in Resources */,
-				0071DABE2C6F225C00CF7683 /* Swift.gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
