@@ -2,8 +2,6 @@
 //  ContentView.swift
 //  medat-stats
 //
-//  Created by Jonas Becker on 13.08.24.
-//
 
 import SwiftUI
 
@@ -15,7 +13,7 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            GraphView()
+            GraphView(selectedTestType: .biologie)
                 .tabItem {
                     Image(systemName: "chart.bar")
                     Text("Chart")

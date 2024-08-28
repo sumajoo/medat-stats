@@ -2,8 +2,6 @@
 //  TestType.swift
 //  medat-stats
 //
-//  Created by Jonas Becker on 13.08.24.
-//
 
 import Foundation
 import SwiftData

@@ -2,8 +2,6 @@
 //  GraphView.swift
 //  medat-stats
 //
-//  Created by Jonas Becker on 14.08.24.
-//
 
 import SwiftUI
 import SwiftData
@@ -13,6 +11,12 @@ struct GraphView: View {
     @Query(sort: \TestResult.timestamp, order: .reverse) private var testResults: [TestResult]
     @Environment(\.modelContext) private var modelContext
     @StateObject private var viewModel = ResultInputViewModel()
+    
+    init(selectedTestType: TestType) {
+        let viewModel = ResultInputViewModel()
+        viewModel.selectedTestType = selectedTestType
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
 
     var body: some View {
         NavigationStack {
@@ -80,6 +84,6 @@ struct GraphView: View {
 }
 
 #Preview {
-    GraphView()
+    GraphView(selectedTestType: .biologie)
         .modelContainer(for: TestResult.self)
 }

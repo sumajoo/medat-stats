@@ -2,8 +2,6 @@
 //  medat_statsApp.swift
 //  medat-stats
 //
-//  Created by Jonas Becker on 13.08.24.
-//
 
 import SwiftUI
 import SwiftData

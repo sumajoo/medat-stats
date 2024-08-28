@@ -2,8 +2,6 @@
 //  BlogView.swift
 //  medat-stats
 //
-//  Created by Jonas Becker on 16.08.24.
-//
 
 import SwiftUI
 

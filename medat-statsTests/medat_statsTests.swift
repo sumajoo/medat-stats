@@ -2,8 +2,6 @@
 //  medat_statsTests.swift
 //  medat-statsTests
 //
-//  Created by Jonas Becker on 13.08.24.
-//
 
 import XCTest
 

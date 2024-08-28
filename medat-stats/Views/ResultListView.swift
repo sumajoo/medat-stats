@@ -2,8 +2,7 @@
 //  TestResultListView.swift
 //  medat-stats
 //
-//  Created by Jonas Becker on 14.08.24.
-//
+
 
 import SwiftUI
 import SwiftData
