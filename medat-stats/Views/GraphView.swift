@@ -77,7 +77,6 @@ struct GraphView: View {
             .padding()
             .background(.gray.opacity(0.1))
             .background(.blue.opacity(0.1))
-
         }
         
     }
