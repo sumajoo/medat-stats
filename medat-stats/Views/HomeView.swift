@@ -53,6 +53,7 @@ struct HomeView: View {
                                     progress: viewModel.getLastTestRang(for: testType, allTestResults: testResults) ?? 0
                                 )
                             }
+                            .buttonStyle(CustomButtonStyle())
                         }
                     }
                     
@@ -64,6 +65,12 @@ struct HomeView: View {
             .background(.blue.opacity(0.1))
             .navigationTitle("Guten Morgen Jonas!")
         }
+    }
+}
+
+struct CustomButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
     }
 }
 

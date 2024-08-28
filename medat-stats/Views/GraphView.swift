@@ -33,7 +33,7 @@ struct GraphView: View {
                     }
                     .padding(5)
                     .padding(.horizontal, 30)
-                    .background(.white)
+                    .background(Color("CardBackground"))
                     .cornerRadius(20)
 //                    .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
                     .overlay(

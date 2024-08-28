@@ -23,8 +23,8 @@ struct BlogEntry: View {
                 .padding(.bottom, 8)
         }
         .padding()
-        .frame(maxWidth: .infinity)  // Die Karte nimmt so viel Platz ein, wie sie kann
-        .background(.white)
+        .frame(maxWidth: .infinity)
+        .background(Color("CardBackground"))
         .cornerRadius(20)
 //        .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
         .overlay(

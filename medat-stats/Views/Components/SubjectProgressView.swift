@@ -28,7 +28,7 @@ struct SubjectProgressView: View {
         .padding()
 //        .background(.background, in: .rect(cornerRadius: 18))
         .frame(height: 115)
-        .background(.white)
+        .background(Color("CardBackground"))
         .cornerRadius(20)
 //        .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
         .overlay(
