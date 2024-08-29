@@ -10,6 +10,9 @@
 		001648AB2C6CBD9700F855E8 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001648AA2C6CBD9700F855E8 /* GraphView.swift */; };
 		0039FCF12C6BCB34002836A0 /* TestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039FCF02C6BCB34002836A0 /* TestType.swift */; };
 		0039FCF32C6BD5A9002836A0 /* ResultInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */; };
+		004DC54C2C804A680071B408 /* FullArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DC54B2C804A680071B408 /* FullArticleView.swift */; };
+		004DC54E2C804F7E0071B408 /* BlogArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DC54D2C804F7E0071B408 /* BlogArticle.swift */; };
+		004DC5502C804FC90071B408 /* BlogArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DC54F2C804FC90071B408 /* BlogArticles.swift */; };
 		006E6B632C6C951900A169B7 /* ResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E6B622C6C951900A169B7 /* ResultListView.swift */; };
 		006E6B662C6C98CC00A169B7 /* ResultInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */; };
 		007D51302C6BAFF8006B956B /* medat_statsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D512F2C6BAFF8006B956B /* medat_statsApp.swift */; };
@@ -47,6 +50,9 @@
 		001648AA2C6CBD9700F855E8 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		0039FCF02C6BCB34002836A0 /* TestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestType.swift; sourceTree = "<group>"; };
 		0039FCF22C6BD5A9002836A0 /* ResultInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInputView.swift; sourceTree = "<group>"; };
+		004DC54B2C804A680071B408 /* FullArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullArticleView.swift; sourceTree = "<group>"; };
+		004DC54D2C804F7E0071B408 /* BlogArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogArticle.swift; sourceTree = "<group>"; };
+		004DC54F2C804FC90071B408 /* BlogArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogArticles.swift; sourceTree = "<group>"; };
 		006E6B622C6C951900A169B7 /* ResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListView.swift; sourceTree = "<group>"; };
 		006E6B652C6C98CC00A169B7 /* ResultInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInputViewModel.swift; sourceTree = "<group>"; };
 		007D512C2C6BAFF8006B956B /* medat-stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "medat-stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +175,7 @@
 				006E6B622C6C951900A169B7 /* ResultListView.swift */,
 				001648AA2C6CBD9700F855E8 /* GraphView.swift */,
 				00AB43052C6F278400B3B173 /* BlogView.swift */,
+				004DC54B2C804A680071B408 /* FullArticleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +194,8 @@
 			children = (
 				007D51332C6BAFF8006B956B /* TestResult.swift */,
 				0039FCF02C6BCB34002836A0 /* TestType.swift */,
+				004DC54D2C804F7E0071B408 /* BlogArticle.swift */,
+				004DC54F2C804FC90071B408 /* BlogArticles.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -323,16 +332,19 @@
 			files = (
 				00AB43082C6F2D0D00B3B173 /* BlogEntry.swift in Sources */,
 				007D51322C6BAFF8006B956B /* ContentView.swift in Sources */,
+				004DC54E2C804F7E0071B408 /* BlogArticle.swift in Sources */,
 				006E6B632C6C951900A169B7 /* ResultListView.swift in Sources */,
 				006E6B662C6C98CC00A169B7 /* ResultInputViewModel.swift in Sources */,
 				00AB43062C6F278400B3B173 /* BlogView.swift in Sources */,
 				007D515E2C6BB080006B956B /* HomeView.swift in Sources */,
 				007D51342C6BAFF8006B956B /* TestResult.swift in Sources */,
+				004DC5502C804FC90071B408 /* BlogArticles.swift in Sources */,
 				001648AB2C6CBD9700F855E8 /* GraphView.swift in Sources */,
 				0039FCF32C6BD5A9002836A0 /* ResultInputView.swift in Sources */,
 				007D51612C6BB4CF006B956B /* SubjectProgressView.swift in Sources */,
 				0039FCF12C6BCB34002836A0 /* TestType.swift in Sources */,
 				007D51302C6BAFF8006B956B /* medat_statsApp.swift in Sources */,
+				004DC54C2C804A680071B408 /* FullArticleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

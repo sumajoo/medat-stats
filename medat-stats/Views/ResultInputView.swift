@@ -74,8 +74,7 @@ struct ResultInputView: View {
                     }
                 }
             }
-            .background(.gray.opacity(0.1))
-            .background(.blue.opacity(0.1))
+            .background(Color("AppBackground"))
 
             .alert(isPresented: $viewModel.showingAlert) {
                 Alert(

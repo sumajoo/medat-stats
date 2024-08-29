@@ -75,8 +75,7 @@ struct GraphView: View {
             }
             .navigationTitle("Chart")
             .padding()
-            .background(.gray.opacity(0.1))
-            .background(.blue.opacity(0.1))
+            .background(Color("AppBackground"))
         }
         
     }

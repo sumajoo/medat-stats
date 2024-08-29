@@ -61,8 +61,7 @@ struct HomeView: View {
                 }
                 .padding()
             }
-            .background(.gray.opacity(0.1))
-            .background(.blue.opacity(0.1))
+            .background(Color("AppBackground"))
             .navigationTitle("Guten Morgen Jonas!")
         }
     }
